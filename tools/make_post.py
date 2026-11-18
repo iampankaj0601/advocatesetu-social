@@ -328,7 +328,9 @@ def reel(c, outdir):
     else:
         ain = ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", silent, *ain, "-map", "0:v", "-map", "1:a",
-                    "-c:v", "copy", "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", tmp], check=True)
+                    "-c:v", "libx264", "-profile:v", "high", "-level", "4.1", "-preset", "veryfast", "-crf", "20",
+                    "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", str(FPS * 2), "-keyint_min", str(FPS * 2), "-sc_threshold", "0",
+                    "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "128k", "-shortest", "-movflags", "+faststart", tmp], check=True)
     os.replace(tmp, final)
     # cover = frame at 2.5s of hook
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "2.5", "-i", final, "-frames:v", "1", "-q:v", "3",
