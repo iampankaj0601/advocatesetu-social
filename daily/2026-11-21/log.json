@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-21",
+  "instagram_image": {"media_id": "17913412416583548"},
+  "instagram_reel": {"media_id": "18171062224488110"},
+  "linkedin": {"urn": "urn:li:share:7529749741270831104", "account": "145473164"},
+  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
+  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "comment_replies": 0,
+  "notes": "get_data returned 0 comments in last 30 days. Banner URL check via shell blocked by proxy (403); Instagram fetched media successfully."
+}
