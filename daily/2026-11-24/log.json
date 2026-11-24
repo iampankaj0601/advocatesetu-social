@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-24",
+  "instagram_image": {"media_id": "18156609691536202"},
+  "instagram_reel": {"media_id": "18039970640848287"},
+  "linkedin": {"urn": "urn:li:share:7530836794066796545", "account": "145473164"},
+  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
+  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "comment_replies": 0,
+  "blog": "blog/zero-fir-india-file-fir-any-police-station.md",
+  "notes": "get_data returned 0 comments in last 30 days. Banner URL check via shell blocked by proxy (403); Instagram and LinkedIn fetched media successfully."
+}
