@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-25",
+  "instagram_image": {"media_id": "18391177738226293"},
+  "instagram_reel": {"media_id": "18105977570343463"},
+  "linkedin": {"urn": "urn:li:share:7531199129885110272", "account": "145473164"},
+  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
+  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "comment_replies": 0,
+  "blog": "blog/how-to-make-a-valid-will-india-witnesses-registration.md",
+  "notes": "get_data returned 0 comments in last 30 days. Banner URL check via shell blocked by proxy (403); Instagram and LinkedIn fetched media successfully."
+}
