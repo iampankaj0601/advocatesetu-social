@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-26",
+  "instagram_image": {"media_id": "18143641492714548"},
+  "instagram_reel": {"media_id": "18128431540698628"},
+  "linkedin": {"urn": "urn:li:share:7531561646985670656", "account": "145473164"},
+  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
+  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "comment_replies": 0,
+  "blog": "blog/gratuity-rules-new-labour-codes-india.md",
+  "notes": "get_data returned 0 comments in last 30 days. Banner URL check via shell blocked by proxy (403); Instagram and LinkedIn fetched media successfully."
+}
