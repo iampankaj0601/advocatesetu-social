@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-26",
+  "run": "second post of the day (manual re-run requested by Pankaj)",
+  "instagram_carousel": {"media_id": "17917206282481549"},
+  "instagram_story_post": {"media_id": "18646864501040621", "tag_applied": false, "note": "tag @iampmishra_ rejected by Instagram (user not accessible); posted without tag"},
+  "instagram_reel": {"media_id": "18155086777557925"},
+  "instagram_story_reel": {"media_id": "18457257832192849", "tag_applied": false, "note": "tag @iampmishra_ rejected by Instagram; posted without tag"},
+  "linkedin": {"urn": "urn:li:share:7531685284485353472", "account": "145473164"},
+  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
+  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "palette": "electric",
+  "comment_replies": 0,
+  "blog": "blog/rent-agreement-registration-stamp-duty-india.md",
+  "notes": "get_data returned 0 comments in last 30 days. URL check via shell blocked by proxy (403); Instagram/LinkedIn fetched media successfully."
+}

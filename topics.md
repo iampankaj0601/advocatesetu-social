@@ -1,5 +1,6 @@
 # Posted topics (newest first) — do not repeat a topic within 60 days
 
+- 2026-11-26 — Rent agreements: registration & stamp duty (Registration Act s.17 lease >1 yr compulsorily registered, 11-month agreements, state stamp duty / unstamped not admissible till duty+penalty, keep rent receipts; Model Tenancy Act 2021 is model law: 2 months' deposit, 24 hrs' notice)
 - 2026-11-26 — Gratuity under the new Labour Codes, Code on Social Security 2020 in force 21 Nov 2025 (5 yrs continuous service; fixed-term 1 yr proportionate; no minimum on death/disablement; 15 days' wages per completed year; ₹20 lakh notified cap; allowances >50% added back to wages; pay within 30 days, simple interest on delay; nominee/legal heirs)
 - 2026-11-25 — Making a valid will, Indian Succession Act 1925 (s.63 signed + 2 witnesses, s.67 gift to attesting witness/spouse void, registration optional, no stamp paper, s.62 revoke any time / latest valid will counts, probate no longer compulsory after Repealing and Amending Act 2025)
 - 2026-11-24 — FIR & Zero FIR, police rights (BNSS s.173: any police station irrespective of area, e-FIR signed within 3 days, free FIR copy, refusal → write to SP s.173(4); Art. 22: grounds of arrest, lawyer, Magistrate within 24 hrs; emergency 112)
