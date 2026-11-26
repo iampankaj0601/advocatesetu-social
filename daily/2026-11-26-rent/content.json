@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-26",
+  "theme": "Rent agreements: lease over 1 year must be registered (Registration Act s.17), pay proper stamp duty (unstamped = penalty before use as evidence, Stamp Act s.35), keep proof of every rent payment",
+  "banner": {
+    "kicker": "Tenant & landlord",
+    "headline": "Signing a rent agreement? Check these three things before you sign.",
+    "highlight": "rent agreement",
+    "hindi": "किराया समझौता साइन करने से पहले जानें।",
+    "points": [
+      "Lease over 1 year must be registered",
+      "Pay the correct stamp duty for your state",
+      "Keep proof of every rent payment"
+    ],
+    "cta": "Learn more on AdvocateSetu"
+  },
+  "story": {
+    "palette": "electric",
+    "characters": {
+      "A": {"name": "Rohan", "skin": "tan", "hair": "curly", "hair_color": "black", "outfit": "#00B37E", "glasses": true},
+      "B": {"name": "Landlord", "skin": "light", "hair": "bald", "hair_color": "grey", "outfit": "#FF8A00", "beard": true, "collar": "none"}
+    },
+    "kicker": "POV",
+    "hook": "POV: Landlord hands you a 3-year rent deal on plain paper",
+    "hook_highlight": "plain paper",
+    "hook_hi": "सादे कागज़ पर 3 साल का किराया समझौता?",
+    "hook_emoji": "😳",
+    "hook_expr": "shocked",
+    "dialogue": [
+      {"who": "B", "text": "Just sign here. Three years, no registration needed.", "react": "worried"},
+      {"who": "A", "text": "Three years on plain paper? Is that even okay?", "expr": "thinking", "emoji": "🤔"},
+      {"who": "B", "text": "Everyone does it this way, beta.", "react": "thinking"},
+      {"who": "A", "text": "Let me read up on the rules first.", "expr": "thinking", "emoji": "📱"}
+    ],
+    "reveal": "Here's what the law says",
+    "facts": [
+      {"text": "A lease of more than one year must be registered", "highlight": "more than one year", "hi": "1 साल से ज़्यादा की लीज़ का पंजीकरण ज़रूरी"},
+      {"text": "Pay the correct stamp duty; unstamped papers attract penalty", "highlight": "stamp duty", "hi": "सही स्टाम्प ड्यूटी भरें"},
+      {"text": "Pay rent digitally or get signed receipts every month", "highlight": "signed receipts", "hi": "हर किराये का सबूत रखें"}
+    ],
+    "ending": {"who": "A", "text": "Registered agreement it is. Paperwork done right!", "emoji": "🙌"},
+    "cta": "Know your rights before you sign",
+    "cta_highlight": "before you sign",
+    "cta_hi": "साइन करने से पहले अपने हक़ जानें"
+  },
+  "caption_instagram": "Signing a rent agreement for more than a year? Read this first. 🏠\n\n📝 A lease of more than one year must be registered (Registration Act, 1908, s.17)\n💰 Pay the correct stamp duty for your state — an unstamped agreement can't be used as evidence until duty and penalty are paid\n🧾 Pay rent digitally or get signed receipts — keep proof of every payment\n📂 Keep a signed copy of the agreement and the deposit receipt\n\nकिराया समझौता साइन करने से पहले अपने हक़ जानें।\n\nSave this & share with someone who needs it.\n\n🌐 https://advocatesetu.com (link in bio)\n\nFor general awareness only. Not legal advice.\n\n#LegalAwareness #KnowYourRights #IndianLaw #RentAgreement #TenantRights #Landlord #PropertyLaw #StampDuty #AdvocateSetu #कानूनी_जागरूकता",
+  "caption_reel": "POV: Your landlord wants a 3-year deal on plain paper. 🏠\n\n1️⃣ Lease over 1 year must be registered\n2️⃣ Pay the correct stamp duty\n3️⃣ Keep proof of every rent payment\n\nकिराया समझौता साइन करने से पहले जानें।\n\nFollow for daily legal awareness.\n\n🌐 https://advocatesetu.com (link in bio)\n\nFor general awareness only. Not legal advice.\n\n#LegalAwareness #KnowYourRights #RentAgreement #TenantRights #AdvocateSetu",
+  "caption_linkedin": "Rent agreements are among the most common documents people sign — and among the most often done informally. Three points for tenants and landlords:\n\n• Registration: under Section 17 of the Registration Act, 1908, a lease of immovable property for more than one year must be registered. This is why many residential agreements are drafted for 11 months.\n• Stamp duty: the agreement must carry the stamp duty prescribed by your state. Under the Indian Stamp Act, an unstamped or under-stamped document cannot be admitted in evidence until the duty and penalty are paid.\n• Records: pay rent through traceable channels or collect signed receipts, and keep copies of the agreement and the security deposit receipt.\n\nFor guidance on tenancy and property matters, you can consult a Bar Council-verified advocate online on AdvocateSetu: https://advocatesetu.com\n\nFor general awareness only. Not legal advice.\n\n#RentAgreement #TenantRights #PropertyLaw #LegalAwareness #India",
+  "post_x": "Signing a rent agreement? 🏠\n\n📝 Lease over 1 year must be registered\n💰 Pay correct stamp duty for your state\n🧾 Keep proof of every rent payment\n\nFor general awareness only. Not legal advice.\nhttps://advocatesetu.com\n\n#RentAgreement #KnowYourRights"
+}
