@@ -1,11 +1,30 @@
 {
   "date": "2026-11-26",
-  "instagram_image": {"media_id": "18143641492714548"},
-  "instagram_reel": {"media_id": "18128431540698628"},
-  "linkedin": {"urn": "urn:li:share:7531561646985670656", "account": "145473164"},
-  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
-  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "instagram_image": {
+    "media_id": "18143641492714548"
+  },
+  "instagram_reel": {
+    "media_id": "18128431540698628"
+  },
+  "linkedin": {
+    "urn": "urn:li:share:7531561646985670656",
+    "account": "145473164"
+  },
+  "facebook": {
+    "skipped": "No Facebook Page connected in Windsor.ai"
+  },
+  "x": {
+    "skipped": "No Typefully social set for @advocatesetu"
+  },
   "comment_replies": 0,
   "blog": "blog/gratuity-rules-new-labour-codes-india.md",
-  "notes": "get_data returned 0 comments in last 30 days. Banner URL check via shell blocked by proxy (403); Instagram and LinkedIn fetched media successfully."
+  "notes": "get_data returned 0 comments in last 30 days. Banner URL check via shell blocked by proxy (403); Instagram and LinkedIn fetched media successfully.",
+  "instagram_story_banner": {
+    "media_id": "18141064942636693",
+    "note": "tag @iampmishra_ rejected by Instagram (user not accessible); posted without tag"
+  },
+  "instagram_story_reel": {
+    "media_id": "18170592076524757",
+    "note": "tag @iampmishra_ rejected; posted without tag"
+  }
 }
