@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-26",
+  "theme": "Gratuity under the new Labour Codes: 5 years (1 year for fixed-term), 15 days' wages per year, ₹20 lakh cap, paid within 30 days (Code on Social Security, 2020)",
+  "banner": {
+    "kicker": "Employee rights",
+    "headline": "Leaving your job? Know your gratuity rights under the new Labour Codes.",
+    "hindi": "ग्रेच्युटी आपका कानूनी हक़ है।",
+    "points": [
+      "Fixed-term staff: eligible after just one year",
+      "15 days' wages for each completed year",
+      "Employer must pay within 30 days"
+    ],
+    "cta": "Learn more on AdvocateSetu",
+    "highlight": "gratuity rights"
+  },
+  "reel": {
+    "kicker": "Employee rights",
+    "hook": "Leaving your job? Check your gratuity first.",
+    "hook_hi": "नौकरी छोड़ रहे हैं? ग्रेच्युटी जानें",
+    "slides": [
+      {
+        "title": "Who is eligible",
+        "body": "Regular employees need 5 years of continuous service. Fixed-term employees qualify after 1 year. No minimum in case of death or disablement.",
+        "hi": "फिक्स्ड-टर्म: एक साल में पात्र"
+      },
+      {
+        "title": "How much you get",
+        "body": "15 days' wages for every completed year of service, up to ₹20 lakh. If allowances exceed 50% of pay, the excess counts as wages.",
+        "hi": "हर साल के 15 दिन का वेतन"
+      },
+      {
+        "title": "Paid within 30 days",
+        "body": "Your employer must pay within 30 days of gratuity becoming due. A late payment carries simple interest. Keep a nominee updated.",
+        "hi": "30 दिन में भुगतान ज़रूरी"
+      }
+    ],
+    "cta": "Questions about gratuity?",
+    "cta_hi": "सत्यापित वकील से बात करें"
+  },
+  "caption_instagram": "Since 21 November 2025, gratuity is governed by the Code on Social Security, 2020. Here's what every employee should know. 💼\n\n✅ Regular employees: eligible after 5 years of continuous service\n⏳ Fixed-term employees: eligible after just 1 year (proportionate)\n🕊️ No minimum service needed in case of death or disablement\n🧮 Amount: 15 days' wages for every completed year of service\n💰 Maximum: ₹20 lakh (as currently notified)\n📊 If allowances exceed 50% of your pay, the excess is added back to wages\n📅 Employer must pay within 30 days of it becoming due; delay attracts simple interest\n📝 Keep your nominee updated\n\nग्रेच्युटी आपका कानूनी हक़ है — नियम जानें।\n\nNeed guidance? Consult a Bar Council-verified advocate on AdvocateSetu — link in bio.\n\nFor general awareness only. Not legal advice.\n\n#Gratuity #LabourCodes #EmployeeRights #FixedTermEmployment #WorkplaceRights #LegalAwareness #IndianLaw #AdvocateSetu #कानूनी_जागरूकता",
+  "caption_reel": "Leaving your job? 3 gratuity rules to know. 💼\n\n1️⃣ 5 years for regular staff; 1 year for fixed-term employees\n2️⃣ 15 days' wages per completed year, up to ₹20 lakh\n3️⃣ Employer must pay within 30 days\n\nग्रेच्युटी आपका कानूनी हक़ है।\n\nConsult a Bar Council-verified advocate on AdvocateSetu — link in bio.\n\nFor general awareness only. Not legal advice.\n\n#Gratuity #LabourCodes #EmployeeRights #LegalAwareness #AdvocateSetu",
+  "caption_linkedin": "The four Labour Codes came into force on 21 November 2025, and gratuity is now governed by the Code on Social Security, 2020. Key points for employees and HR teams:\n\n• Eligibility: five years of continuous service for regular employees; not required on death or disablement\n• Fixed-term employees: eligible after one year of continuous service, on a proportionate basis\n• Amount: 15 days' wages for every completed year of service\n• Ceiling: ₹20 lakh, as currently notified by the Central Government\n• Wages: where allowances exceed 50% of total remuneration, the excess is added back to wages — which can raise the gratuity base\n• Timeline: the employer must pay within 30 days of gratuity becoming payable; delayed payment attracts simple interest\n• Nomination: on an employee's death, gratuity is paid to the nominee, or to legal heirs if there is none\n\nFor guidance on gratuity or other employment matters, you can consult a Bar Council-verified advocate on AdvocateSetu: https://advocatesetu.com\n\nFor general awareness only. Not legal advice.\n\n#Gratuity #LabourCodes #EmployeeRights #HR #LegalAwareness #India",
+  "post_x": "Gratuity under the new Labour Codes:\n\n✅ 5 yrs service (1 yr for fixed-term)\n🧮 15 days' wages per year\n💰 Up to ₹20 lakh\n📅 Employer pays within 30 days\n\nhttps://advocatesetu.com\n\n#Gratuity #LabourCodes",
+  "story": {
+    "characters": {
+      "A": {
+        "name": "Priya",
+        "skin": "medium",
+        "hair": "long",
+        "hair_color": "black",
+        "outfit": "#FF3D7F",
+        "earrings": true
+      },
+      "B": {
+        "name": "HR",
+        "skin": "tan",
+        "hair": "short",
+        "hair_color": "black",
+        "outfit": "#FFFFFF",
+        "glasses": true,
+        "beard": true,
+        "collar": "none"
+      }
+    },
+    "kicker": "Story time",
+    "hook": "POV: Your 1-year contract ends and HR says no gratuity",
+    "hook_highlight": "no gratuity",
+    "hook_hi": "क्या सच में ग्रेच्युटी नहीं मिलेगी?",
+    "hook_emoji": "😳",
+    "dialogue": [
+      {
+        "who": "B",
+        "text": "Your fixed-term contract is over. Gratuity is only after 5 years.",
+        "react": "shocked"
+      },
+      {
+        "who": "A",
+        "text": "But I completed one full year of continuous service here...",
+        "expr": "worried",
+        "emoji": "🤔"
+      },
+      {
+        "who": "B",
+        "text": "Those are the rules, Priya.",
+        "react": "thinking"
+      },
+      {
+        "who": "A",
+        "text": "Let me check the new Labour Codes first.",
+        "expr": "thinking",
+        "emoji": "📱"
+      }
+    ],
+    "reveal": "Here's what the law says",
+    "facts": [
+      {
+        "text": "Fixed-term employees get gratuity after 1 year of continuous service",
+        "highlight": "1 year",
+        "hi": "फिक्स्ड-टर्म: एक साल में ग्रेच्युटी"
+      },
+      {
+        "text": "15 days' wages for every completed year, up to ₹20 lakh",
+        "highlight": "15 days' wages",
+        "hi": "हर साल के 15 दिन का वेतन"
+      },
+      {
+        "text": "Employer must pay within 30 days; delay attracts interest",
+        "highlight": "30 days",
+        "hi": "30 दिन में भुगतान ज़रूरी"
+      }
+    ],
+    "ending": {
+      "who": "A",
+      "text": "So I AM eligible! Writing to HR today.",
+      "emoji": "🙌"
+    },
+    "cta": "Know your rights before your last day",
+    "cta_highlight": "Know your rights",
+    "cta_hi": "सत्यापित वकील से सलाह लें"
+  }
+}
