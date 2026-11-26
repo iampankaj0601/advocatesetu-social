@@ -4,7 +4,8 @@
 Usage: python3 tools/make_story.py daily/YYYY-MM-DD/content.json [all|reel|carousel|banner]
 Reads content["story"] (+ content["banner"] for the banner) and writes next to content.json:
   reel.mp4 (1080x1920, H.264 High + AAC 48 kHz, ~22-26 s), cover.jpg,
-  carousel_1.jpg ... carousel_N.jpg (1080x1350), banner.jpg (1080x1350)
+  carousel_1.jpg ... carousel_N.jpg (1080x1350), banner.jpg (1080x1350),
+  story_post.jpg (1080x1920 Story re-share of the carousel cover; `storycard [src.jpg]` mode renders only this)
 
 story = {
   "palette": "punch|electric|sunset|mint" (optional, else rotates by date),
@@ -19,7 +20,7 @@ story = {
 A is the main character (never an advocate). Stories are illustrative.
 """
 import json, os, sys, math, random, subprocess, shutil, tempfile, zlib
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from story_art import (F, emoji, ease, back, avatar, wrap_words, fit_rich, draw_rich, text_w, sticker,
@@ -557,6 +558,42 @@ def banner(c, outdir):
     still_chrome(img, p, disc=DISC_B)
     img.convert("RGB").save(os.path.join(outdir, "banner.jpg"), quality=92)
 
+def story_card(c, outdir, src=None, out="story_post.jpg"):
+    """1080x1920 Instagram Story image that re-shares a feed post (carousel cover or banner)."""
+    pname, p = palette(c)
+    src = src or next(f for f in ("carousel_1.jpg", "banner.jpg") if os.path.exists(os.path.join(outdir, f)))
+    post = Image.open(os.path.join(outdir, src)).convert("RGBA")
+    W, H = RW, RH
+    img = background(W, H, p)
+    d = ImageDraw.Draw(img)
+    brand_pill(img, 60, 110, 84)
+    st = sticker("NEW POST", F("bold", 44), p["hl"], NAVY, angle=-5)
+    img.alpha_composite(st, (W - st.width - 50, 100))
+    pw = 900
+    ph = int(post.height * pw / post.width)
+    post = post.resize((pw, ph), Image.LANCZOS)
+    m = Image.new("L", (pw, ph), 0)
+    ImageDraw.Draw(m).rounded_rectangle([0, 0, pw - 1, ph - 1], radius=40, fill=255)
+    post.putalpha(m)
+    y = 290
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle([(W - pw) // 2 + 10, y + 24, (W + pw) // 2 + 10, y + ph + 24], radius=40, fill=(0, 0, 0, 120))
+    img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(18)))
+    img.alpha_composite(post, ((W - pw) // 2, y))
+    y += ph + 60
+    f = F("bold", 46)
+    txt = "Full post on our profile"
+    d = ImageDraw.Draw(img)
+    d.text(((W - text_w(txt, f)) / 2, y), txt, font=f, fill=WHITE)
+    fu = F("bold", 48); url = "advocatesetu.com"; tw = text_w(url, fu)
+    d.rounded_rectangle([(W - tw) / 2 - 55, y + 90, (W + tw) / 2 + 55, y + 194], radius=52, fill=p["hl"])
+    d.text(((W - tw) / 2, y + 110), url, font=fu, fill=NAVY)
+    fd = F("imed", 25)
+    w = text_w(DISC_B, fd)
+    d.text(((W - w) / 2, H - 90), DISC_B, font=fd, fill=(235, 238, 248))
+    img.convert("RGB").save(os.path.join(outdir, out), quality=92)
+    return out
+
 def main():
     path = sys.argv[1]
     only = sys.argv[2] if len(sys.argv) > 2 else "all"
@@ -567,6 +604,8 @@ def main():
         banner(c, outdir)
     if only in ("all", "carousel"):
         res["carousel"] = len(carousel(c, outdir))
+    if only in ("all", "carousel", "storycard"):
+        res["story_card"] = story_card(c, outdir, src=sys.argv[3] if len(sys.argv) > 3 else None)
     if only in ("all", "reel"):
         res["reel"] = Reel(c).render(outdir)
     print("ok", outdir, json.dumps(res))
