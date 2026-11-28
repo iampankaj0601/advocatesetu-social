@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-28",
+  "instagram_carousel": {"media_id": "18109928939346965"},
+  "instagram_story_post": {"skipped": "failed twice: tagged attempt rejected (Invalid user id: iampmishra_ not accessible); untagged retry failed with 'media not found' (container 18127838582032587)", "tag_applied": false},
+  "instagram_reel": {"media_id": "18122604998074440"},
+  "instagram_story_reel": {"media_id": "18120670279797503", "tag_applied": false, "note": "tag @iampmishra_ rejected by Instagram (Invalid user id); posted without tag"},
+  "linkedin": {"urn": "urn:li:share:7532286938368761856", "account": "145473164"},
+  "facebook": {"skipped": "No Facebook Page connected in Windsor.ai"},
+  "x": {"skipped": "No Typefully social set for @advocatesetu"},
+  "palette": "electric",
+  "comment_replies": 0,
+  "blog": "blog/posh-act-sexual-harassment-workplace-complaint-india.md",
+  "notes": "get_data returned 0 comments in last 30 days. URL check via shell blocked by proxy (403); Instagram/LinkedIn fetched media successfully. Banner points shortened after first render (point 3 overflowed). Facts verified via PIB SHe-Box releases, ISTM PoSH guidebook, Goa DIP release (₹50,000 penalty, s.26)."
+}
